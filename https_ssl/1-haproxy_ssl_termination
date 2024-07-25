@@ -46,5 +46,5 @@ frontend fiston-frontend-https
 
 backend fiston-backend
         balance roundrobin
-        server 6234-web-01 54.227.174.231:80 check
-        server 6234-web-02 54.221.172.173:80 check
+        server 6245-web-01 18.207.118.157:80 check
+        server 6245-web-02 18.208.245.133:80 check
