@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Bash script to display information about subdomains
+# Bash script to display information about subdomain
 
 dns_config () {
-    # Use dig to fetch DNS record, extract relevant information, and format the output
+    # Use dig to fetch DNS record, extract relevant information, and format the outputs
     record_info=$(dig "$2"."$1" +short)
     if [[ -n "$record_info" ]]; then
         echo "The subdomain $2 is a A record and points to $record_info"
